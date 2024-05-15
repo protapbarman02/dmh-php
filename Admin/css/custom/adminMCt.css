@@ -1,0 +1,32 @@
+.admin-add-dorpdown-form{
+    background-color: rgb(243, 239, 239);
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.admin-add-dorpdown-form-hide{
+    display: none;
+}
+.update-bottom-menues{
+    display: flex;
+    justify-content: space-between;
+}
+.admin-alert-dismiss-container{
+    height: 50px;
+} 
+.admin-panel-alert{
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.admin-alert-dismiss-btn{
+    background-color: transparent;
+    border: none;
+}
+.manage-links{
+    text-decoration: none;
+    color: black;
+}
+.field_error{
+    color: red;
+}

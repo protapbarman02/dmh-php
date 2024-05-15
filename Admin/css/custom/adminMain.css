@@ -1,0 +1,72 @@
+.admin-panel-main{
+    display: flex;
+    /* background-color: lightblue; */
+}
+.admin-nav-hide{
+    margin-left: -220px;
+}
+.admin-left-panel{
+    width: 270px;
+    min-width: 270px;
+    border-right: 1px solid rgb(170, 167, 167);
+}
+.admin-right-panel{
+    flex: 1;
+    position: relative;
+    overflow-x: hidden;
+    background-color: rgb(236, 242, 242);
+
+}
+.admin-right-panel::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.admin-right-panel .admin-right-top-bar{
+    background-color: rgb(227, 243, 189);
+    text-align: center;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.admin-table-container{
+    overflow-x: scroll;
+}
+.admin-manage-td{
+    width: 250px;
+}
+.right-top-link{
+    color: grey;
+    text-decoration: none;
+}
+.right-top-link.active{
+    color: green;
+}
+
+.icon-10 {
+    width: 10px;
+    height: 10px;
+}
+
+.icon-15 {
+    width: 15px;
+    height: 15px;
+}
+
+.icon-20 {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-25 {
+    width: 25px;
+    height: 25px;
+}
+
+.icon-30 {
+    width: 30px;
+    height: 30px;
+}
+.truncated-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

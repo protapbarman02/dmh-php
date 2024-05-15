@@ -1,0 +1,57 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.container {
+    padding: 12px 12px 12px 12px;
+    width: 800px;
+    border: 1px solid black;
+    padding: 8px;
+}
+/* mm */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 1rem;
+}
+/* mm */
+
+.card-body{
+    margin: 12px;
+    padding:12px;
+}
+
+.invoice-title{
+    text-align: center;
+}
+.row {
+    width: 100%;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+.left {
+    float: left;
+}
+
+.right {
+    float: left;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+table{
+    border-collapse:collapse ;
+    width: 100%;
+    text-align: center;
+}
+
+td{
+    padding: 4px;
+}
