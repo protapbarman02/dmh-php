@@ -80,7 +80,7 @@ if (isset($_SESSION['isLoggedIn']) && $_SESSION['isLoggedIn'] == "yes") {
                   <?php
                   if ($isLoggedIn == 1) {
                   ?>
-                    <li class="active"><a href="<?php echo "$ROOT"; ?>profile.php">My Profile</a></li>
+                    <li class=""><a href="<?php echo "$ROOT"; ?>profile.php">My Profile</a></li>
                   <?php
                   }
                   ?>

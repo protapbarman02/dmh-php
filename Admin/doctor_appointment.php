@@ -32,6 +32,7 @@ $res = mysqli_query($con, "select doc_appointment.*,d_name from doc_appointment 
             <th>Appointment Mode</th>
             <th>Appointment Fee</th>
             <th>Status</th>
+            <th>Manage</th>
           </tr>
         </thead>
         <tbody>
@@ -50,7 +51,8 @@ $res = mysqli_query($con, "select doc_appointment.*,d_name from doc_appointment 
               <td><?php echo $row['doc_a_time'] ?></td>
               <td><?php echo $row['doc_a_mode'] ?></td>
               <td><?php echo $row['doc_a_fee'] ?></td>
-              <td><?php echo $row['doc_a_status'] ?></td>
+              <td><?php echo strtoupper($row['doc_a_status']) ?></td>
+              <td><a href="doc_appointment_details.php?doc_a_id=<?php echo $row['doc_a_id']; ?>">manage</a></td>
             </tr>
           <?php } ?>
         </tbody>

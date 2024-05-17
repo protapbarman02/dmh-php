@@ -8,11 +8,10 @@ require("includes/profile_nav.php");
         <table class="table">
             <thead>
                 <tr>
-                    <th></th>
                     <th>Date</th>
                     <th>Time</th>
                     <th>Fees</th>
-                    <th>Applied On</th>
+                    <th>Booked At</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -22,7 +21,7 @@ require("includes/profile_nav.php");
                 while ($row = mysqli_fetch_assoc($res)) {
                 ?>
                     <tr>
-                        <td><a href="my_lab_apps_details.php?lab_id=<?php echo $row['lab_id']; ?>&type=<?php echo $row['lab_type']; ?>">(View)</a></td>
+                        <!-- <td><a href="my_lab_apps_details.php?lab_id=<?php // echo $row['lab_id']; ?>&type=<?php //echo $row['lab_type']; ?>">(View)</a></td> -->
                         <td><?php echo formatDate($row['lab_app_date']); ?></td>
                         <td>
                             <?php

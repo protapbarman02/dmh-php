@@ -160,6 +160,21 @@ if ($invoice_price == 0) {
          <p><span><?php echo $total_price_all_combined; ?></span> Rs/-</p>
         </td>
        </tr>
+       <tr>
+        <td>
+          <h4>Estimated Delivery Data :</h4>
+        </td>
+        <td><h5></h5></td>
+        <td>
+          <p>
+          <?php 
+          $today = date("Y-m-d");
+          $future_date = date("Y-m-d", strtotime("+7 days"));
+          echo $future_date; 
+          ?>
+          </p>
+        </td>
+       </tr>
       </tbody>
      </table>
     </div>
